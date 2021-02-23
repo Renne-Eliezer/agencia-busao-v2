@@ -1,0 +1,95 @@
+#p1{
+	display: flex;
+	margin-left: 700px;
+}
+#hed{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+#hb{
+	display: flex;
+	
+}
+body{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tit{
+	display: flex;
+	text-align: center;
+	width: 900px;
+	height: 400px;
+	margin-left: 210px;
+}
+#h31{
+	font-weight: bolder;
+	font-size: 35px;
+}
+.mae{
+	margin-top: -250px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 1400px;
+	height: 400px;
+}
+.filho{
+	display: flex;
+	flex-direction: column;
+	background-color: lightgreen;
+	height: 250px;
+    width: 300px; 
+    padding: 20px;
+	margin-left: 150px;
+	box-shadow: 0 0 10px rgb(0, 0, 0, .5); 
+	border-radius: 20px;
+
+
+}
+.filho2{
+	display: flex;
+	flex-direction: column;
+	background-color: lightgreen;
+	height: 250px;
+    width: 300px; 
+    padding: 20px;
+	margin-left: 50px;
+	box-shadow: 0 0 10px rgb(0, 0, 0, .5); 
+	border-radius: 20px;
+
+
+}
+#pf{
+	color: black;
+	font-weight: bolder;
+	font-size: 20px;
+	text-align: center;
+}
+.filho:hover{
+	background-color: lightslategray;
+	color: whitesmoke;
+}
+.filho:active{
+	background-color: lightskyblue;
+	color: linen;
+}
+.filho2:hover{
+	background-color: lightslategray;
+	color: whitesmoke;
+
+}
+.filho2:active{
+	background-color: lightskyblue;
+	color: linen;
+
+}
+#sair{
+	margin-left: 600px;
+}
+#a2{
+	margin-left: 20px;
+}
+#infot{
+	font-weight: bolder;
+	font-size: 20px;
+}

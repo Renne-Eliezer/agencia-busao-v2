@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title> Compre sua Passagem! </title>
+		<link href="w3.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<link href="homec.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="Hed" class="w3-bar w3-black">
+			<a id="hb" class="w3-bar-item w3-button" href='chamado.html'> Chamados </a>
+			<a class="w3-bar-item w3-button" href='formulario.html'> Empregos </a>
+			<a class="w3-bar-item w3-button" href='info.html'> Informações </a>
+			<a class="w3-bar-item w3-button" href='help.html'> Contatos</a>
+			<h1 id="p1">Viação Web</h1> 
+		</div><div class="w3-container w3-teal">
+			<h2>Compre sua passagem!</h2>
+		  </div>
+			<form class="w3-container" action="https://formspree.io/f/mzbkvepq" id='f1' name='contratos' method="POST">
+					<label class="w3-text-teal" for='name'>
+					Seu nome:<input class="w3-input w3-border w3-light-grey" type='text' id='name' name='Nome do comprador'>
+					</label > <br><br>
+					<label for='em' class="w3-text-teal"></label>
+					Seu E-mail:<input class="w3-input w3-border w3-light-grey" type='email' id='em' name='Email do comprador'>
+					</label><br><br>
+					<label for='p' class="w3-text-teal"></label>>
+					Lugar da partida:<select id="est" name="Lugara da partida">
+						<option value="pb"> Nova Cruz </option>
+						<option value="pe"> Passa e Fica </option>
+						<option value="rn" selected> Natal </option>
+						<option value="ce"> São José do Campestre </option>
+						</select> <br><br>
+					<label for='d' class="w3-text-teal"></label>>
+					Destino:<select id="est" name="Destino">
+						<option value="pb" selected> Nova Cruz </option>
+						<option value="pe"> Passa e Fica </option>
+						<option value="rn"> Natal </option>
+						<option value="ce"> São José do Campestre </option>
+						</select>
+					</label> <br><br>
+					<input class="w3-btn w3-blue-grey"' type="submit" value="Enviar">
+					<input class="w3-btn w3-blue-grey" type='reset' />
+								
+						
+					<br><br>
+			</form>
+		<a id="sair" class="w3-btn w3-blue-grey" href='home.html'> Voltar ao incio</a>
+	</body>
+</html>
+			

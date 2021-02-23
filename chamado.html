@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title> Chamados </title>
+		<link href="homec.css" rel="stylesheet">
+		<link href="w3.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<div id="Hed" class="w3-bar w3-black">
+			<a id="hb" class="w3-bar-item w3-button" href='chamado.html'> Chamados </a>
+			<a class="w3-bar-item w3-button" href='formulario.html'> Empregos </a>
+			<a class="w3-bar-item w3-button" href='info.html'> Informações </a>
+			<a class="w3-bar-item w3-button" href='help.html'> Contatos</a>
+			<h1 id="p1">Viação Web</h1> 
+		</div>
+		<div class="w3-container w3-teal">
+			<h2>Formulario para abrir chamado:</h2>
+		  </div>
+			<form class="w3-container" action="https://formspree.io/f/mzbkvepq" id='f1' name='contratos' method="POST">
+				<label for='c1' >
+				Nome do funcionário: <input class="w3-input w3-border w3-light-grey" type='text' id='c1' name="Funcionário"><br><br>
+				</label>
+				<label for='c2' >
+				Assunto do chamado: <input class="w3-input w3-border w3-light-grey" type='text' id='c2' name='Assunto'><br><br>
+				</label>
+				<table>
+					<h3> Setores: </h3>
+					<tr>
+						<label for='r1' >
+						Administrativo:<input type='radio' id='r1' name='set'>
+						</label>
+						<label for='r2' >
+						Gerencial:<input type='radio' id='r2' name='set'>
+						</label>
+						<label for='r3' >
+						Operacional:<input type='radio' id='r3' name='set'>
+						</label>
+					</tr>
+				<br><br>
+				<label for='c4' >
+				Detalhamento do chamado: <textarea name='sugestões' id='c4' rows ='10' cols='30'> </textarea>
+				</label><br><br>
+				<input class="w3-btn w3-blue-grey" type='submit' id='a1' name='Enviar'/>
+				<input class="w3-btn w3-blue-grey" type='reset' id='a2' name='Apagar'/>
+			</form>
+		</div>
+		<br><br>
+		<a id="sair" class="w3-btn w3-blue-grey" href='home.html'> Voltar ao inicio</a>
+	</body>
+</html>
+					
+				
+				
